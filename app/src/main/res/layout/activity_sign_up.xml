@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="427dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/registeruser" />
+
+
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:id="@+id/nameid"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edit_round"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:paddingLeft="5dp"
+            android:hint="Name"/>
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:id="@+id/studentID"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_round"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_person_black_24dp"
+            android:paddingLeft="5dp"
+            android:hint="College ID" />
+
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/emailid"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:drawableLeft="@drawable/ic_mail_outline"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edit_round"
+            android:hint="Email-ID"/>
+        <EditText
+            android:layout_width="275dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:id="@+id/passwordid"
+            android:layout_marginTop="20dp"
+            android:drawableLeft="@drawable/ic_lock_black_24dp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/edit_round"
+            android:hint="Password"/>
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:onClick="btnRegister_Click"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/edit_round1"
+            android:text="@string/button_register"
+            android:textColor="#000"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/already_reg"
+            android:layout_gravity="center"
+            android:textColor="#000"        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:id="@+id/textview_login"
+            android:text="@string/lodin_reg"
+            android:layout_marginTop="1dp"
+            android:textColor="#00A6F6"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

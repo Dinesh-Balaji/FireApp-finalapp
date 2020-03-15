@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".WorkSpaceFaculty">
+
+    <!-- Main content -->
+
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:itemBackground="@null"
+        app:itemTextColor="#000"
+        app:itemIconTint="#000"
+        app:menu="@menu/navigation_faculty"
+        app:labelVisibilityMode="selected"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tt2"
+        android:text="ELECTIVES"
+        android:layout_marginTop="70dp"
+        android:textSize="34sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="140dp"
+        android:layout_below="@id/tt2"
+        android:layout_height="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:drawableRight="@drawable/arrow"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:background="@drawable/button_round"
+        android:text="Game Theory"
+        />
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/button1"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:layout_below="@id/tt2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="20dp"
+        android:drawableRight="@drawable/arrow"
+        android:textColor="#000"
+        android:background="@drawable/button_round"
+        android:text="Cloud Computing" />
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/button1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:drawableRight="@drawable/arrow"
+        android:textColor="#000"
+        android:background="@drawable/button_round"
+        android:text="Biometrics" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/button2"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:drawableRight="@drawable/arrow"
+        android:textColor="#000"
+        android:background="@drawable/button_round"
+        android:text="Neural Networks" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/button3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:drawableRight="@drawable/arrow"
+        android:textColor="#000"
+        android:background="@drawable/button_round"
+        android:text="Android" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/button4"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:drawableRight="@drawable/arrow"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:text="Pattern recognition"
+        android:textColor="#000"
+        android:background="@drawable/button_round"
+        />
+
+
+</RelativeLayout>

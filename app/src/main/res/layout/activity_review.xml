@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".review"
+    android:background="@drawable/bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_id"
+        android:text="Add Comment"
+        android:layout_marginTop="100dp"
+        android:textSize="45sp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <EditText
+        android:id="@+id/comment_id"
+        android:layout_width="375dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/edit_round"
+        android:drawablePadding="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="75dp"
+        android:hint="Please avoid using any offensive words."
+        android:layout_below="@+id/text_id"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/comment_id"
+        android:text="Submit"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_round1"
+        android:textColor="#000"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:id="@+id/submit_id"/>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FireApp</string>
+    <string name="username">College ID</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="register">REGISTER</string>
+    <string name="cmf_password">Confirm Password</string>
+    <string name="button_register">REGISTER</string>
+    <string name="already_reg">Already Registered?</string>
+    <string name="lodin_reg">Login</string>
+    <string name="mailid">Mail ID</string>
+</resources>
