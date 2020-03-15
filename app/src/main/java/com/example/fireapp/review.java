@@ -58,6 +58,12 @@ public class review extends AppCompatActivity implements View.OnClickListener{
         //
         dialogbox();
         //
+
+
+        //Commented for Continuous integration
+
+
+
         database=FirebaseDatabase.getInstance();
         ref=database.getReference().child(elective);
         ref=ref.child("reviews");
