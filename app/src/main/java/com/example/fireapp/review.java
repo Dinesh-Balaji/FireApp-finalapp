@@ -60,7 +60,7 @@ public class review extends AppCompatActivity implements View.OnClickListener{
         //
 
 
-        //Commented for Continuous integration
+        //Commented for Continuous Integration
 
 
 
